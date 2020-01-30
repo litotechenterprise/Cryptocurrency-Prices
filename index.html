@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitcoin tracker</title>
+</head>
+<body>
+
+    <h1>Welcome to the Bitcoin tracker!!</h1>
+
+    <form action="/" method="POST">
+        <label for="crypto">Crypto</label>
+        <select name="crypto">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoin</option>
+        </select>
+
+        <label for="currency">Currency</label>
+        <select name="currency">
+            <option value="USD">US Dollars</option>
+            <option value="EUR">EU Euro</option>
+            <option value="GBP">GB Pounds</option>
+        </select>
+
+        <input type="text" name="amount" placeholder="Quantity">
+
+
+       <button type="submit">Check</button>
+
+    </form>
+
+</body>
+</html>
